@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV Thierry Vuillermet</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+
+    <div class="container_entete">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">CVTV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu" id="navi_about" data-contenu="about">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu" id="navi_skills" data-contenu="skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu" id="navi_education" data-contenu="education">Formation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu" id="navi_works" data-contenu="works">Expérience pro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu" id="navi_website" data-contenu="website">Site
+                            Internet</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="image_header">
+        </div>
+
+
+    </div>
+
+
+    <div class="container_principal">
+        <div class="container_profil">
+            <div class="container_photo_name">
+                <div class="photo zoom_photo">
+                    <img src="img/photoCV4.jpg" alt="photo CV" id="photo_cv">
+                </div>
+                <div class="name_position_icons">
+                    <div class="npi_item" id="name">
+                        Thierry Vuillermet
+                    </div>
+                    <div class="npi_item" id="name_2">
+                        Thierry<br>Vuillermet
+                    </div>
+                    <div class="npi_item" id="position">
+                        Concepteur développeur
+                    </div>
+                    <div class="npi_item" id="position_2">
+                        Concepteur<br>Développeur
+                    </div>
+                    <div class="npi_item" id="icons">
+                        <a href="https://www.linkedin.com/in/thierry-vuillermet-09a577209/" target="_blank">
+                            <img src="img/Linkedin_icon.svg" alt="Linkedin icon" id="Linkedin_icon" class="icon_img">
+                        </a>
+                        <a href="https://www.instagram.com/thierryvllrmt/?hl=fr" target="_blank">
+                            <img src="img/Instagram_icon.png" alt="Instagram icon" id="Instagram_icon" class="icon_img">
+                        </a>
+                        <img src="img/contact.png" alt="Contact icon" id="contact_icon" data-contenu="contact"
+                            class="icon_img pointeur">
+                    </div>
+                </div>
+            </div>
+            <div class="email_phone">
+                <div class="ep_item" id="email">
+                    <a href="mailto:tivui64@gmail.com">
+                        <p>
+                            <span class="email_title"><i class="fas fa-envelope"></i>&#32;EMAIL</span><br>
+                            <span class="email_name">tivui64@gmail.com</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="ep_item" id="phone">
+                    <p>
+                        <span class="phone_title"><i class="fas fa-phone"></i>&#32;N° TÉLÉPHONE</span><br>
+                        <span class="phone_name">06.33.46.63.79</span>
+                    </p>
+                </div>
+                <div class="bl_item_min" id="birthday">
+                    <p>
+                        <span class="birthday_title"><i class="fas fa-calendar-alt"></i>&#32;DATE DE
+                            NAISSANCE</span><br>
+                        <span class="birthday_name">24/06/1982</span>
+                    </p>
+                </div>
+                <div class="bl_item_min" id="location">
+                    <p>
+                        <span class="location_title"><i class="fas fa-map-marker-alt"></i>&#32;LIEU DE
+                            RÉSIDENCE</span><br>
+                        <span class="location_name">Pau (FRANCE)</span>
+                    </p>
+                </div>
+            </div>
+            <div class="birthday_location">
+                <div class="bl_item" id="birthday">
+                    <p>
+                        <span class="birthday_title"><i class="fas fa-calendar-alt"></i>&#32;DATE DE
+                            NAISSANCE</span><br>
+                        <span class="birthday_name">24/06/1982</span>
+                    </p>
+                </div>
+                <div class="bl_item" id="location">
+                    <p>
+                        <span class="location_title"><i class="fas fa-map-marker-alt"></i>&#32;LIEU DE
+                            RÉSIDENCE</span><br>
+                        <span class="location_name">Pau (FRANCE)</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_contenu">
+
+        <div class="menu" id="menu">
+            <div class="menu_item" id="menu_about" data-contenu="about">
+                <div class="icon_user">
+                    <i class="fa fa-user fa-2x"></i>
+                </div>
+                <div class="user_title">
+                    <p>A propos <br> de moi</p>
+                </div>
+            </div>
+            <div class="menu_item" id="menu_skills" data-contenu="skills">
+                <div class="icon_skills">
+                    <img src="img/personal-skills.png" id="skills_icon" alt="skills icon">
+                </div>
+                <div class="skills_title">
+                    <p>Compétences</p>
+                </div>
+            </div>
+            <div class="menu_item" id="menu_education" data-contenu="education">
+                <div class="icon_education">
+                    <i class="fa fa-graduation-cap fa-2x"></i>
+                </div>
+                <div class="education_title">
+                    <p>Formation</p>
+                </div>
+            </div>
+            <div class="menu_item" id="menu_works" data-contenu="works">
+                <div class="icon_works">
+                    <i class="fa fa-file-alt fa-2x"></i>
+                </div>
+                <div class="works_title">
+                    <p>Expérience <br> <span id="pro_name">professionnelle</span></p>
+                </div>
+            </div>
+            <div class="menu_item" id="menu_website" data-contenu="website">
+                <div class="icon_website">
+                    <i class="fa fa-globe fa-2x"></i>
+                </div>
+                <div class="website_title">
+                    <p>Site Internet</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contenu" id="about">
+            <div id="container_about">
+                <h1>A propos de moi</h1>
+                <hr class="separateur">
+                <h2>Présentation</h2>
+                <p class="texte_contenu">
+                    Passionné d'informatique et en reconversion après 14 années dans l'enseignement.
+                    À la recherche d'un stage pour valider un titre professionnel
+                    de développeur concepteur à l'issue de ma formation chez
+                    <a href="https://www.ldnr.fr" class="pointeur" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_ldnr.jpg" id="logo_ldnr" alt="logo LDNR">
+                    </a>
+                    .
+                </p>
+                <h2>Mes centres d'intérêt</h2>
+                <ul>
+                    <li>Badminton en compétition</li>
+                    <li>Voyages</li>
+                    <li>Composition musicale, enregistrements d'environnements sonores</li>
+                    <li>Mon site web</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenu" id="skills">
+            <div class="container_skills">
+                <h1>Mes compétences</h1>
+                <hr class="separateur">
+                <h2>Compétences techniques</h2>
+                <ul>
+                    <li>Maintenir, concevoir et développer les programmes et applications
+                        informatiques en lien avec une base de données dans un langage
+                        spécifique</li>
+                    <li> Choisir des stratégies de programmation</li>
+                    <li>Analyser les besoins du client</li>
+                    <li>Établir un cahier des charges</li>
+                    <li>Déterminer les phases et procédures de tests techniques et
+                        fonctionnels de programmes et applications informatiques</li>
+                    <li> Planifier les étapes d'un projet</li>
+                </ul>
+                <h2>Langages informatiques</h2>
+                <p class="texte_contenu">Java, Java J2E, HTML5, CSS3, JavaScript, PHP, MySQL, Jinja, Python</p>
+                <h2>Frameworks</h2>
+                <p class="texte_contenu">Jquery, Maven, Hibernate, SpringL, Flask</p>
+                <h2>Langue vivante étrangère</h2>
+                <p class="texte_contenu">Anglais courant et technique (score de 790 au TOEIC, niveau B2)</p>
+            </div>
+        </div>
+        <div class="contenu" id="education">
+            <div class="container_education">
+                <h1>Mes formations</h1>
+                <hr class="separateur">
+                <h2>Formation de concepteur développeur d'applications Java JEE chez
+                    <a href="https://www.ldnr.fr" class="pointeur" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_ldnr.jpg" id="logo_ldnr_2" alt="logo LDNR">
+                    </a>
+                </h2>
+                <h3>Toulouse | 2021</h3>
+                <ul>
+                    <li>460 heures effectuées</li>
+                </ul>
+                <h2>Professeur des écoles (obtention du CRPE)</h2>
+                <h3>IUFM de Pau | 2004</h3>
+                <h2 class="marge_haut">License MASS (Bac +3)</h2>
+                <h3>Université de Pau | 2004</h3>
+                <ul>
+                    <li>Licence Mathématiques Appliquées aux Sciences Sociales</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenu" id="works">
+            <div class="container_works">
+                <h1>Mes expériences professionnelles</h1>
+                <hr class="separateur">
+                <h2>ERUN (Enseignant Référent aux Usages du Numérique)</h2>
+                <h3>Éducation Nationale à Saint-Palais | Sept 2018 - Juin 2020</h3>
+                <ul>
+                    <li>Conseiller numérique pour les directeurs d'établissement</li>
+                    <li>Accompagnateur pour les enseignants dans la prise en compte du
+                        numérique au quotidien dans les classes</li>
+                    <li>Coordinateur de projets numériques en lien avec les collectivités
+                        territoriales chargées de l'équipement et de la maintenance.</li>
+                </ul>
+                <h2>Professeur des Écoles</h2>
+                <h3>Pays Basque Intérieur | Sept 2007 - Juin 2020</h3>
+                <ul>
+                    <li>Enseignement + direction pendant 7 ans en classe unique multi-
+                        niveaux PS-CM2 en école de campagne puis expériences pendant 6 ans
+                        en classes de cycle 2 ou 3.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenu" id="website">
+            <div class="container_website">
+                <h1>Ecnelis FLY</h1>
+                <hr class="separateur">
+                <embed src="https://www.ecnelisfly.com" class="ecnelisfly_website">
+                <a href="https://www.ecnelisfly.com" target="_blank" rel="noopener noreferrer" class="pointeur">
+                    <img src="img/ecnelisfly_capture.JPG" alt="capture d'écran Ecnelis Fly" class="ecnelisfly_capture">
+                </a>
+            </div>
+        </div>
+        <div class="contenu" id="contact">
+            <h1>Mes coordonnées</h1>
+            <hr class="separateur">
+            <div class="container_contact">
+                <div class="email_phone_contenu">
+                    <div class="ep_item" id="contenu_email">
+                        <a href="mailto:tivui64@gmail.com">
+                            <p>
+                                <span class="email_title"><i class="fas fa-envelope"></i>&#32;EMAIL</span><br>
+                                <span class="email_name">tivui64@gmail.com</span>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="ep_item" id="contenu_phone">
+                        <p>
+                            <span class="phone_title"><i class="fas fa-phone"></i>&#32;N° TÉLÉPHONE</span><br>
+                            <span class="phone_name">06.33.46.63.79</span>
+                        </p>
+                    </div>
+                    <div class="bl_item" id="contenu_birthday">
+                        <p>
+                            <span class="birthday_title"><i class="fas fa-calendar-alt"></i>&#32;DATE DE
+                                NAISSANCE</span><br>
+                            <span class="birthday_name">24/06/1982</span>
+                        </p>
+                    </div>
+                    <div class="bl_item" id="contenu_location">
+                        <p>
+                            <span class="location_title"><i class="fas fa-map-marker-alt"></i>&#32;LIEU DE
+                                RÉSIDENCE</span><br>
+                            <span class="location_name">Pau (FRANCE)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Mon javascript-->
+    <script src="js/cv.js"></script>
+</body>
+
+
+</html>
