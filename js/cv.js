@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".menu_item,.nav-link,#contact_icon");
+const buttons = document.querySelectorAll(".menu_item,.nav-link,#contact_icon,.menu_link");
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function (e) {
         var contenu_name = e.currentTarget.dataset.contenu;
