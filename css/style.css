@@ -164,6 +164,11 @@ body {
     opacity: 0.8;
 }
 
+#birthday_min {
+    width: 185px !important;
+    margin-left: 4px;
+}
+
 .email_name,
 .phone_name,
 .birthday_name,
