@@ -505,6 +505,10 @@ h1,
     #works {
         height: 750px;
     }
+
+    body {
+        font-size: 0.8em !important;
+    }
 }
 
 @media screen and (max-width: 747px) {
@@ -536,10 +540,6 @@ h1,
         margin-left: auto;
         margin-right: auto;
         width: 98%;
-    }
-
-    body {
-        font-size: 0.8em !important;
     }
 
     h1 {
