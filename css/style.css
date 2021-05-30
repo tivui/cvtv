@@ -35,7 +35,7 @@ body {
 
 
 .image_header {
-    background-image: url("../img/banniere_cv_1.jpg");
+    background-image: url("../img/banniere_cv_2.jpg");
     background-size: cover;
     height: 250px;
 }
@@ -536,6 +536,10 @@ h1,
     body {
         font-size: 0.8em !important;
     }
+
+    h1 {
+        font-size: 1.8em !important;
+    }
 }
 
 @media screen and (max-width: 608px) {
@@ -599,6 +603,15 @@ h1,
     .photo {
         margin-right: 60px;
         margin-left: -60px;
+    }
+    
+    .menu_mobile_device {
+        font-size:0.80em !important;
+        padding: 0px;
+    }
+
+    .menu_link {
+        margin-right: 5px !important;
     }
 }
 
